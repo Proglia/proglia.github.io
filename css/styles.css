@@ -109,20 +109,20 @@
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(354, 88%, 54%, 1);
-    --color-2: hsla(4, 79%, 63%, 1);
-    --color-3: hsla(34, 75%, 80%, 1);
+    --color-1: #f12035;
+    --color-2: #f12035;
+    --color-3: #f12035;
 
     /* theme color variations
      */
-    --color-1-lighter: hsla(345, 93%, 64%, 1);
-    --color-1-light: hsla(345, 93%, 54%, 1);
-    --color-1-dark: hsla(345, 93%, 34%, 1);
-    --color-1-darker: hsla(345, 93%, 24%, 1);
-    --color-2-lighter: hsla(4, 79%, 83%, 1);
-    --color-2-light: hsla(4, 79%, 73%, 1);
-    --color-2-dark: hsla(4, 79%, 53%, 1);
-    --color-2-darker: hsla(4, 79%, 43%, 1);
+    --color-1-lighter: #f12035;
+    --color-1-light: #f12035;
+    --color-1-dark: #f12035;
+    --color-1-darker: #f12035;
+    --color-2-lighter: #f12035;
+    --color-2-light: #f12035;
+    --color-2-dark: #f12035;
+    --color-2-darker: #f12035;
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -3358,8 +3358,8 @@ input::-moz-focus-inner {
 .s-header__logo {
     z-index: 101;
     display: inline-block;
-    margin: 5px;
-    padding: 5px;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transition: all .5s;
@@ -3367,6 +3367,7 @@ input::-moz-focus-inner {
     position: absolute;
     left: 1rem;
     top: calc(50%);
+    height: 8.8rem;
 }
 
 .s-header__logo a {
@@ -3377,9 +3378,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 230px;
-    height: 260px;
-    margin-bottom: 0;
+    width: 16rem;
+    height: 8rem;
 }
 
 
@@ -3394,7 +3394,7 @@ input::-moz-focus-inner {
     list-style: none;
     font-family: var(--font-2);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 6rem;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
