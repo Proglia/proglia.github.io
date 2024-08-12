@@ -4569,7 +4569,7 @@ html.no-csstransitions .s-hero__content {
 /* thumbnail
  *---------------------------------------------- */
 .folio-item__thumb a {
-    display: block;
+    display: relative;
 }
 
 .folio-item__thumb a::before {
@@ -4617,6 +4617,34 @@ html.no-csstransitions .s-hero__content {
     vertical-align: bottom;
     margin-bottom: 0;
 }
+
+/* portfolio thmubnail icons
+ *---------------------------------------------- */
+
+.folio-item__thumb_icon {
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1000;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.folio-item__thumb_icon img {
+    height: 50px;
+    padding: 10px 5px;
+}
+
+
+
+
 
 /* portfolio info
  *---------------------------------------------- */
@@ -4718,6 +4746,8 @@ html.no-csstransitions .s-hero__content {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
+
+
 
 
 /* ------------------------------------------------------------------- 
